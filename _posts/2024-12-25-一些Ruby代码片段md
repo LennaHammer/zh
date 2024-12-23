@@ -1,0 +1,30 @@
+---
+layout: post
+published: false
+---
+
+一些琐碎的代码片段，没有固定的主题。
+
+## Sexp 表达式解析
+
+```ruby
+
+```
+
+## Datalog 求解器
+
+```ruby
+
+```
+
+## 算24
+
+
+```ruby
+
+```
+
+## 参考
+
+- Ruby Quiz https://rubyquiz.com/
+- Rosetta Code https://rosettacode.org/wiki/Category:Ruby
