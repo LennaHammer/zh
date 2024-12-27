@@ -8,20 +8,175 @@ published: false
 ## Sexp 表达式解析
 
 ```ruby
+class SexpParser
+  def initialize
+    @tokens = []
+  end
+
+  def parse_list
+    xs = []
+    xs << parse_atom until @tokens.fetch(0) == :')'
+    @tokens.shift
+    xs
+  end
+
+  def parse_atom
+    x = @tokens.shift
+    x == :'(' ? parse_list : x
+  end
+
+  def parse(text)
+    @tokens = text.scan(/[()]|[^()\s]+/)
+    @tokens.map! { |x| x =~ /\A\d+\z/ ? x.to_i : x.to_sym }
+    # p @tokens
+    parse_atom
+  end
+end
+parser = SexpParser.new
+p parser.parse '(+ (- a b) c)'
+p parser.parse '(define (f x) (+ x 1))'
 
 ```
 
 ## Datalog 求解器
 
 ```ruby
+# FOR EACH TUPLE (x,z) IN RELATION b: 2 FOR EACH TUPLE (z,y) IN RELATION c: 3 IF (z) IN RELATION d: 4 ADD (x,y) TO RELATION a
+# TODO: 否定
+# 不实现，数学运算
+data1 = [
+  [:f, 1],
+  [:f, 2],
+  [:f, 3],
+  [:g, 2],
+  [:g, 3],
+  [:':-', %i[h X], %i[f X], %i[g X]],
+  [:':-', %i[p X], %i[h X]]
+]
+pp data1
+# p DATA.read
+require 'set'
+def parse(text)
+  text.scan(/[^.]+\./).map do |m|
+    xs = m.scan(/(\w+)\(([\w,]+)\)/).map do |pred, xs|
+      [pred.intern, *xs.split(',').map { |e| e =~ /\d+/ ? e.to_i : e.strip.intern }]
+    end
+    xs.size == 1 ? xs.first : [:':-', *xs]
+  end
+  # p :d
+end
+pp data1 = parse(DATA.read)
+# p data1.zip(data2){p _1==_2}
+# exit
+class Solver
+  def initialize
+    @facts = Set[]
+    @rules = Set[]
+  end
 
+  def solve(data, query)
+    @facts = data.select { |e| e[0] =~ /^[a-z]/ }.to_set
+    @rules = data.select { |e| e[0] == :':-' }.to_set
+    p facts: @facts, rules: @rules
+    fixed = 0
+    until fixed == @facts.size
+      p [:loop_count, fixed, @facts.size, @facts]
+      fixed = @facts.size
+      # fixed = true
+      @rules.each do |_, goal, *conds|
+        # p [:rule, goal, conds]
+        results = []
+        seq(conds, {}, results)
+        results.each do |x|
+          # p result: x
+          found = goal.map { |e| x.fetch(e, e) }
+          found.any? { |x| x =~ /[A-Z]/ } and raise "found #{found}"
+          @facts.add(found)
+        end
+      end
+    end
+    p @facts
+    @facts.map { |fact| match(query, fact, {}) }.compact
+  end
+
+  def match(query, fact, env)
+    # p [:match, query, fact, env]
+    return nil if query.size != fact.size || query[0] != fact[0]
+
+    new_env = {}.merge(env)
+    query.zip(fact) do |x, y|
+      if x.is_a?(Symbol) && x =~ /^[A-Z]/
+        if env.include?(x)
+          return nil if new_env[x] != y
+        else
+          new_env[x] = y
+        end
+      elsif x != y
+        return nil
+      end
+    end
+    new_env
+  end
+
+  def seq(xs, env, results)
+    # p [:seq, xs, env]
+    if xs.empty?
+      results << env # yield env
+    else
+      x = xs[0]
+      @facts.each do |fact|
+        next unless (env_p = match(x, fact, env))
+
+        # p [:after_match, env_p]
+        seq(xs[1..-1], env_p, results)
+      end
+    end
+  end
+end
+solver = Solver.new
+p solver.solve(data1, %i[h X])
+
+__END__
+f(1).
+f(2).
+f(3).
+g(2).
+g(3).
+h(X):-f(X),g(X).
+h(X):-q(A,X,B).
+p(X):-h(X).
+q(5,6,7).
 ```
 
 ## 算24
 
 
 ```ruby
+def calc24(nums, expr = nums)
+  if nums.length == 1
+    nums[0] == 24? expr[0] : false
+  else
+    nums.length.times do |i|
+      nums.length.times do |j|
+        next if i == j
+        new_nums = nums.select_with_index{|_, idx| idx!=i && idx!=j}
+        new_expr = expr.select_with_index{|_, idx| idx!=i && idx!=j}
+        ['+', '-', '*', '/'].each do |op|
+          next if op==:'/' && nums[j]==0
+          next if (op==:'+' || op==:'*') && i>j
+          new_nums.push nums[i].to_r.send(op, nums[j])
+          new_expr.push "(#{expr[i]})#{op}(#{expr[j]})"
+        end
+        x = calc24(new_nums, new_expr) and return x
+        new_nums.pop
+        new_expr.pop
+      end
+    end
+  end
+  nil
+end
 
+p calc24([6, 6, 8, 8]) # "((6*8)/(9-7))"
 ```
 
 ## 参考
