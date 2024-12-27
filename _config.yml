@@ -32,7 +32,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # remote_theme: mmistakes/so-simple-theme@3.2.0
-theme: minima
+theme: modernist
 # theme: jekyll-text-theme
 # remote_theme: kitian616/jekyll-TeXt-theme
 plugins:
