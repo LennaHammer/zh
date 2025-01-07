@@ -1,5 +1,6 @@
 ---
 layout: post
+title: The Writing Style
 ---
 
 The writing style of a tutorial often consists of several steps, showing the result of each step one by one. This is completely different from an academic paper, which aims to discover a conclusion or prove an argument.
