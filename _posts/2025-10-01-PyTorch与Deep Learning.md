@@ -8,50 +8,59 @@ published: true
 ## PyTorch 运算
 
 张量运算
+- 注意先从直觉直观的角度设想，然后再选择优化的实现方案。
+  - 通常第一维度是 batch，最后维是特征。即每行一组数据。
 - 创建一个 `x = torch.rand(5, 3)` 非常适合用来调试。
 - 矩阵运算，注意存在 batch 维。
 	- a + b 向量相加，维度相等（或者其中一个是标量）。
 	- input_gru = torch.cat((embedded, context), dim=2) 两个特征合并。
-	- 乘法 `torch.matmul()` 或 `@` 。针对2维矩阵的运算，有 batch 维时会自动广播。
-- 改变形状，比如用来 flatten。
-	- `view`
-	- `reshape(-1)`
-	- `inputs.unsqueeze(-1)`  `unsqueeze()` 和 `squeeze()` 
-	- 注意行优先
-	- expand() 和 repeat()
-	- 转置 `transpose()` 方法可用于交换张量的两个维度
-		- permute()  
+	- 乘法 `torch.matmul()` 或 `@` 。针对2维矩阵的运算，对最低的两个维度，需要 batch 维一致。
+- 改变形状
+	- `.view` `.reshape(-1)` 注意行优先，可以用来 flatten 或逆运算。
+	  - `inputs.unsqueeze(0)` 和 `.squeeze()` 增加一个维度，用来增加 batch 或者 length 为 1。很有用的简写。需要时可以再复制，或者用广播。比如说测试的时候单个样本需要调用模型的时候很有用。 
+	- `.repeat()` 或 `.expand()` 用来复制。
+	- 转置 `transpose()` 或 `permute() ` 方法可用于交换张量的两个或多个维度
 - 数组
-	-  `.argmax(dim=-1)` 得到分类编号
-	-  求和 `.sum` 求平均 `.mean`，可以指定维度。
-- 注意很多时候第一维是 batch，基本运算需要显式地考虑。
+	-  `.argmax(dim=-1)` 得到分类编号，这时候不需要 `.softmax(-1)`。
+	-  求和 `.sum` 求平均 `.mean`，可以指定维度，比如对特征，也可以得到总的标量。
+- 注意
+  - 很多时候第一维是 batch，基本运算需要显式地考虑，模型运算则隐含。
+  - 对于图片要考虑通道数，长宽。对于文本要考虑长度。
 
-模块
-- 模块包含 batch 维（隐含的，调用者不需要考虑），也可以当张量运算使用，可能有可学习参数。
-- 层，包括 batch 维，很多 torch 的模块都隐含 batch 维，除了一些基础的矩阵运算。
-	- Sequential 
-	- Linear(28 * 28, 128), 
+
+模型
+- 模块 Module 包含 batch 维（隐含的，调用者不需要考虑），通常有可学习参数，也可以当张量运算使用（如果没有可学习参数的话）。
+- 层 Layer，是模块的组成部分，自身也是一个模块。包括 batch 维，模块都隐含 batch 维，不同于基础的矩阵运算。
+	- Linear(28 * 28, 128), 输入输出的大小。
 	- ReLU() 放在 Linear 之后
+	- Sequential(Linear(100, 64), ReLU(), Linear(64, 10))
 	- CNN 用于图像，也用于并行的场景。
-- 模型，完整的模型也可以作为一个层来调用，也可以直接用来完成任务。
+    - RNN、Transformer 用于序列。
+- 模型 Model，完整的模型也可以作为一个层来调用，也可以直接用来完成任务。
 	- 注意输入输出格式，和约定。数组格式。可能需要转换。可能有多个输入，可能输入是个元组或者字典。
 		- 调用第三模型的时候根据文档和示例中描述。
-		- 因为模型的输入输出都是张量，所以需要额外的处理。
-		- 输入需要预处理，图形和文本都需要。模型和预处理模块是一一对应的。
+		- 因为模型的输入输出都是张量，图片和文本都需要预处理。模型和预处理模块是一一对应的，必须匹配。
 		- 分类任务往往输出一个数组，需要转换为编号，字符序列需要转换为文本。
+    - 表示层的模型用来提取特征，往往经过预训练了。
+- 图像和文本模型
 	- 图像
-		- `models.detection.fasterrcnn_mobilenet_v3_large_fpn(weights="DEFAULT")`
-		- cnn 用于提取特征。
+		- cnn 可以用于提取特征。
+        - 用 1*1 卷积核可以代替全连接层。
+        - 图像分类，特征提取 模型 `models.resnet18()` 可以使用或者参考一下 pytorch 自带的实现。
+		- 目标检测模型
+            - `models.detection.fasterrcnn_mobilenet_v3_large_fpn(weights="DEFAULT")`
+            - Yolo, SSD
 	- 文本
-		- `BertForSequenceClassification.from_pretrained("bert-base-uncased")`
-		- `LSTM(input_dim, hidden_dim, batch_first=True)` 输入是 序列x词向量。需要对循环输入。
-		- embedding 用于词表转词向量。
-- 预处理，也是完整模型的一部分，接受原始输入。
-- 输出，
+		- embedding 用于词表转词向量，预处理要分词转编号。查表法，可学习。
+		- `LSTM(input_dim, hidden_dim, batch_first=True)` 输入是 序列x词向量。内部会对输入的每个词依次循环调用。
+		- `BertForSequenceClassification.from_pretrained("bert-base-uncased")` 想获得上下文相关的词向量的话可以直接调用。
+- 预处理，也是整个模型不可替换的一部分，接受原始输入。
+- 输出是向量或者标量，有时候需要再次转化。
 
 推断
 - 调用模型时，需要先转化输入，最后再转化输出。
 - 可以用肉眼观察看卡效果，也可以用评价指标判断模型。
+- 推断模式不需要计算梯度。
 
 训练
 - 损失函数，也是一种层
@@ -68,29 +77,32 @@ published: true
 	- 机器翻译的评价指标 BLUE。
 	- 评价指标和损失函数不一定是同一个。因为实现差异损失函数的具体大小没有实际意义。
 	- 评估首先是肉眼看一下结果，甚至不一定是数字指标。
-- 归一化
-	-  nn.BatchNorm2d(c_out), 位置在线性层后。
-	-  层归一化。 nn.LayerNorm(self.hparams.model_dim),  位置在线性层后。
 - 训练技巧
 	- 学习率调整
 	- dropout nn.Dropout(dropout) 位置在线性层前。
 	- 训练过程中打印损失函数变化，画出折线图。
+    - 用小样本做实验，看模型能否运行，是否有初始的效果。
 	- torch.nn.utils.clip_grad_norm_(...) 防止梯度爆炸
+    - 训练过程中保存模型，或者保存中间结果。
+- 其他提升方法
+    - 归一化
+	  -  nn.BatchNorm2d(c_out), 位置在线性层后。
+	  -  层归一化。 nn.LayerNorm(self.hparams.model_dim),  位置在线性层后。
 - 数据集
 	- DataSet 相当于一个数组。
 	- DataLoader 用来分 batch。指定 batch size。序列可能是填 0。
 	- 可能需要预处理或者增强。图像 transform（翻转、缩放），文本 tokenize（词典转编号）。在 dataloader 之前可以提升性能。
 	- 划分训练、测试/验证。
-	- 文本的输入是字符编号，然后用 embedding 变成向量。
+	- 文本的输入是字符序列，分词，根据词表转编号，然后 embedding ，最终变成向量。
 	- 见后面的代码，利用 pytorch 或其他库提供的工具。
 - 备注
 	- 通常实现为命令行模式方便调用。
 	- 训练过程大多数情况不需要手工调整。
 	- 首先找一个完整的代码跑一下。
-	- 动态图很方便交互调试，用固定的输入来尝试调用，看对应输出的格式。
+	- 动态图很方便交互调试，用固定的输入来尝试调用，看对应输出的格式。尽量各维度长度不一致，及时报错。
 	- 对于整个过程只关心必要的部分。
-	- 对模块拼接，不要从零开始。
-	- 调用第三方模块的时候，看一下输入输出格式，以及约定。这个不固定，特别是有细节差异。有预训练权重。
+	- 对模块拼接，不要从零开始，利用或者修改已有的能测试的代码。
+	- 调用第三方模块的时候，看一下输入输出格式，以及约定。这个不固定，特别是有细节差异。含预训练权重。
 
 任务
 - 常见任务
@@ -109,7 +121,6 @@ published: true
 		- 词向量
 		- 序列模型 rnn, lstm, attention, bert, gpt, 
 - 代码参考
-	- https://lightning.ai/docs/pytorch/stable/
 	- https://lightning.ai/docs/pytorch/stable/tutorials.html
 	- [Annotated Research Paper Implementations](https://nn.labml.ai/)
 	- [PyTorch Tutorials](https://pytorch.org/tutorials/)
@@ -170,8 +181,25 @@ published: true
 一个简单的双层感知机
 
 ```python
+import torch
+import torch.nn as nn
+class MLP(nn.Module):
+    def __init__(self):
+        super(MLP, self).__init__()
+        self.fc1 = nn.Linear(28*28, 64)
+        self.fc2 = nn.Linear(64, 10)
+        self.dropout = nn.Dropout(0.5)
 
-
+    def forward(self, x):
+        x = x.view(-1, 28*28)
+        x = nn.functional.relu(self.fc1(x))
+        x = self.dropout(x)
+        x = self.fc2(x)
+        return x
+model = MLP()
+print(model)
+y = torch.rand(2, 28*28)
+print(model(y))
 ```
 
 pytorch-lighting 也一样
@@ -196,7 +224,12 @@ class LitAutoEncoder(L.LightningModule):
 
 
 改进
-VGG
+VGG 用 3x3 卷积核堆叠。
+```python
+conv2d = nn.Conv2d(in_channels, layer, kernel_size=3, padding=1)
+nn.MaxPool2d(kernel_size=2, stride=2)
+```
+
 resnet
 
 
@@ -345,6 +378,36 @@ acc = (preds.argmax(dim=-1) == labels).float().mean()
 - Recommendation system 	Train - recommendation system (factorization and embedding) 
 - Time-series forecasting 	Train - Time-series forecasting with LSTM
 
+### 张量操作
+
+```python
+import torch
+import torch.nn as nn
+
+x = torch.rand(5, 4) # 这里两个维度不一致，方便调试，对不上会报错。
+# 通常第一维是 batch，最后一个维度是特征
+# 即每行是一项数据，每列是一个特征
+print(x)
+print(x.shape) # [5, 4]
+
+print(x.argmax(dim=-1)) # 每行得到一个下标，用于得到分类结果
+print(x.mean(dim=-1)) # 合并特征
+print(x.softmax(dim=-1)) # 如果仅仅要下标的话，这个可以不要。
+# 如果是序列的话，有一个维度是序列长度。
+# 如果是图片的话，特征有是多维。
+# 特征合并用 concat 或者 +,通常最后一维是特征
+print(torch.cat([x, 2*x], dim=-1)) # 特征维变长
+print(x+2*x) # 特征维长度不变
+# %%
+# 如果图片的话，通道增加。
+# 改变形状，有时候和广播配合。
+print(x.unsqueeze(0).shape) # 添加 batch 或者 length 为 1 的时候
+print(x.transpose(1, 0).shape) # 交换维度
+print(x.view(-1, 2, 2).shape) # 进行 flatten 以及逆运算，注意行优先。
+
+print(nn.Dropout(0.5)(x)) # 一部分特征变成 0. 用于传入 fc 前。
+
+```
 
 ### CNN 图像分类
 - CNN 常用卷积核 3， pool 后尺寸减半。
@@ -436,6 +499,9 @@ print(f'Accuracy on test set: {100 * correct / total}%')
 
 ### Resnet 微调
 
+```python
+
+```
 
 ### FastText 文本分类
 FastText 文本分类
@@ -1033,7 +1099,9 @@ RAG
 ## 附录
 
 参考资料
+- https://lightning.ai/docs/pytorch/stable/tutorials.html
 - [动手学深度学习](https://zh-v2.d2l.ai/)
+- [Lambda calculus](https://crypto.stanford.edu/~blynn/lambda/)
 
 
 原文创建于 2025年5月1日，随后略有调整。
@@ -1045,3 +1113,5 @@ RAG
 ### 大语言模型
 
 这个新的文档里再说，本文侧重传统的深度学习模型。
+
+
