@@ -161,7 +161,53 @@ published: true
 - 相关会议与杂志。
 
 
-## 模块
+## 代码示例
+
+
+- Hello world 	Pretrain - Hello world example 
+- Image classification 	Finetune - ResNet-34 model to classify images of cars 
+- Image segmentation 	Finetune - ResNet-50 model to segment images 
+- Object detection 	Finetune - Faster R-CNN model to detect objects 
+- Text classification 	Finetune - text classifier (BERT model) 
+- Text summarization 	Finetune - text summarization (Hugging Face transformer model) 
+- Audio generation 	Finetune - audio generator (transformer model) 
+- LLM finetuning 	Finetune - LLM (Meta Llama 3.1 8B) 
+- Image generation 	Pretrain - Image generator (diffusion model) 
+- Recommendation system 	Train - recommendation system (factorization and embedding) 
+- Time-series forecasting 	Train - Time-series forecasting with LSTM
+
+### 张量操作
+
+```python
+import torch
+import torch.nn as nn
+
+x = torch.rand(5, 4) # 这里两个维度不一致，方便调试，对不上会报错。
+# 通常第一维是 batch，最后一个维度是特征
+# 即每行是一项数据，每列是一个特征
+print(x)
+print(x.shape) # [5, 4]
+
+print(x.argmax(dim=-1)) # 每行得到一个下标，用于得到分类结果
+print(x.mean(dim=-1)) # 合并特征
+print(x.softmax(dim=-1)) # 如果仅仅要下标的话，这个可以不要。
+# 如果是序列的话，有一个维度是序列长度。
+# 如果是图片的话，特征有是多维。
+# 特征合并用 concat 或者 +,通常最后一维是特征
+print(torch.cat([x, 2*x], dim=-1)) # 特征维变长
+print(x+2*x) # 特征维长度不变
+# %%
+# 如果图片的话，通道增加。
+# 改变形状，有时候和广播配合。
+print(x.unsqueeze(0).shape) # 添加 batch 或者 length 为 1 的时候
+print(x.transpose(1, 0).shape) # 交换维度
+print(x.view(-1, 2, 2).shape) # 进行 flatten 以及逆运算，注意行优先。
+
+print(nn.Dropout(0.5)(x)) # 一部分特征变成 0. 用于传入 fc 前。
+
+```
+
+## 模块实现
 
 
 ### 层/模块
@@ -201,6 +247,42 @@ resnet
 
 
 ### RNN
+
+块
+
+```python
+class ResNetBlock(nn.Module):
+    def __init__(self, c_in, act_fn, subsample=False, c_out=-1):
+        super().__init__()
+        if not subsample:
+            c_out = c_in
+
+        # Network representing F
+        self.net = nn.Sequential(
+            nn.Conv2d(
+                c_in, c_out, kernel_size=3, padding=1, stride=1 if not subsample else 2, bias=False
+            ),  # No bias needed as the Batch Norm handles it
+            nn.BatchNorm2d(c_out),
+            act_fn(),
+            nn.Conv2d(c_out, c_out, kernel_size=3, padding=1, bias=False),
+            nn.BatchNorm2d(c_out),
+        )
+
+        # 1x1 convolution with stride 2 means we take the upper left value, and transform it to new output size
+        self.downsample = nn.Conv2d(c_in, c_out, kernel_size=1, stride=2) if subsample else None
+        self.act_fn = act_fn()
+
+    def forward(self, x):
+        z = self.net(x)
+        if self.downsample is not None:
+            x = self.downsample(x)
+        out = z + x
+        out = self.act_fn(out)
+        return out
+```
+
+
+
 ### Attention
 - Q,K,V 是 $batch \times length \times dim$ 
 - $\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$
@@ -286,7 +368,7 @@ fcn
 
 vgg
 
-BatchNorm 在 线性层后激活层前
+BatchNorm 在线性层后激活层前
 ```python
 self.net = nn.Sequential(
 	nn.Conv2d(
@@ -324,28 +406,13 @@ DQN
 
 评价指标
 
-```
+```python
 loss = F.cross_entropy(preds.view(-1, preds.size(-1)), labels.view(-1))
 acc = (preds.argmax(dim=-1) == labels).float().mean()
 ```
 
 
-## 代码案例
-
-
-- Hello world 	Pretrain - Hello world example 
-- Image classification 	Finetune - ResNet-34 model to classify images of cars 
-- Image segmentation 	Finetune - ResNet-50 model to segment images 
-- Object detection 	Finetune - Faster R-CNN model to detect objects 
-- Text classification 	Finetune - text classifier (BERT model) 
-- Text summarization 	Finetune - text summarization (Hugging Face transformer model) 
-- Audio generation 	Finetune - audio generator (transformer model) 
-- LLM finetuning 	Finetune - LLM (Meta Llama 3.1 8B) 
-- Image generation 	Pretrain - Image generator (diffusion model) 
-- Recommendation system 	Train - recommendation system (factorization and embedding) 
-- Time-series forecasting 	Train - Time-series forecasting with LSTM
-
-
+## 完整案例
 ### CNN 图像分类
 - CNN 常用卷积核 3， pool 后尺寸减半。
 - 最后 flatten 后进入线性层
@@ -434,7 +501,10 @@ print(f'Accuracy on test set: {100 * correct / total}%')
     
 ```
 
-### Resnet 微调
+### ResNet 微调
+
+
+
 
 
 ### FastText 文本分类
@@ -650,7 +720,7 @@ for iter in range(n_iters):
     
 ```
 
-### RL 与 DQN
+### RL 和 DQN
 
 
 强化学习
@@ -1024,7 +1094,7 @@ print(response.choices[0].message.content)
 
 边生成边打印设置 `stream=True`, `
 注意 chatgpt 的输入输出需要是聊天的格式。
-
+除了 openai 也可以用第三方 api 或者本地的 ollama。
 
 
 RAG
@@ -1033,15 +1103,19 @@ RAG
 ## 附录
 
 参考资料
+- https://lightning.ai/docs/pytorch/stable/tutorials.html
 - [动手学深度学习](https://zh-v2.d2l.ai/)
+- [Lambda calculus](https://crypto.stanford.edu/~blynn/lambda/)
 
 
 原文创建于 2025年5月1日，随后略有调整。
 
-### PyTorch 的用法
 
-本文侧重案例分析，所以可能具体用法作为附录比较好，但是考虑本文的记录和阅读顺序，还是保留在开头了。
+PyTorch 的用法
+- 本文侧重案例分析，所以可能具体用法作为附录比较好，但是考虑本文的记录和阅读顺序，还是保留在开头了。
 
-### 大语言模型
+大语言模型
+- 这个新的文档里再说，本文侧重传统的深度学习模型。
 
-这个新的文档里再说，本文侧重传统的深度学习模型。
+
+一些基础的模型本身就很简单而且实用，而且以这些基础的模型出发，也会获得一个更容易看见复杂模型的视角。
