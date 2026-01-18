@@ -161,7 +161,7 @@ published: true
 - 文本上的算法。
 	- 文本分类
 - 教材
-	- 李航。
+	- 李航，统计学习。
 	- 文本上的算法。
 	- hulu 葫芦书（两本）有点老，但是有一些有趣的细节问题。答案仅参考，不一定好。
 - 论文
@@ -175,17 +175,7 @@ published: true
 ## 代码示例
 
 
-- Hello world 	Pretrain - Hello world example 
-- Image classification 	Finetune - ResNet-34 model to classify images of cars 
-- Image segmentation 	Finetune - ResNet-50 model to segment images 
-- Object detection 	Finetune - Faster R-CNN model to detect objects 
-- Text classification 	Finetune - text classifier (BERT model) 
-- Text summarization 	Finetune - text summarization (Hugging Face transformer model) 
-- Audio generation 	Finetune - audio generator (transformer model) 
-- LLM finetuning 	Finetune - LLM (Meta Llama 3.1 8B) 
-- Image generation 	Pretrain - Image generator (diffusion model) 
-- Recommendation system 	Train - recommendation system (factorization and embedding) 
-- Time-series forecasting 	Train - Time-series forecasting with LSTM
+
 
 ### 张量操作
 
@@ -269,19 +259,17 @@ class LitAutoEncoder(L.LightningModule):
 ### CNN
 
 
-改进
-VGG 用 3x3 卷积核堆叠。
+
 ```python
 conv2d = nn.Conv2d(in_channels, layer, kernel_size=3, padding=1)
 nn.MaxPool2d(kernel_size=2, stride=2)
 ```
 
+改进
+VGG 用 3x3 卷积核堆叠。
 resnet
 
-
-### RNN
-
-块
+ResNet 块
 
 ```python
 class ResNetBlock(nn.Module):
@@ -315,6 +303,9 @@ class ResNetBlock(nn.Module):
 ```
 
 
+### RNN
+
+需要对序列迭代调用模型。
 
 ### Attention
 - Q,K,V 是 $batch \times length \times dim$ 
@@ -376,7 +367,9 @@ DEFAULT_TRANSFORM = transforms.Compose([
 train_dataset = datasets.StanfordCars(root=".", download=False, transform=DEFAULT_TRANSFORM)
 torch.utils.data.DataLoader(train_dataset, batch_size=256, shuffle=True, num_workers=5)
 ```
-文本数据集
+
+
+文本数据集，需要先分词
 ```python
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 dataset = load_dataset("imdb")["train"]
@@ -390,6 +383,14 @@ return torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True, num_wor
 训练时对整个数据集处理。
 使用也需要预处理步骤。
 
+
+
+### 评价指标
+
+```python
+loss = F.cross_entropy(preds.view(-1, preds.size(-1)), labels.view(-1))
+acc = (preds.argmax(dim=-1) == labels).float().mean()
+```
 
 
 ### 其他
@@ -437,15 +438,20 @@ DQN
 
 ```
 
-评价指标
-
-```python
-loss = F.cross_entropy(preds.view(-1, preds.size(-1)), labels.view(-1))
-acc = (preds.argmax(dim=-1) == labels).float().mean()
-```
-
-
 ## 完整案例
+
+- Hello world 	Pretrain - Hello world example 
+- Image classification 	Finetune - ResNet-34 model to classify images of cars 
+- Image segmentation 	Finetune - ResNet-50 model to segment images 
+- Object detection 	Finetune - Faster R-CNN model to detect objects 
+- Text classification 	Finetune - text classifier (BERT model) 
+- Text summarization 	Finetune - text summarization (Hugging Face transformer model) 
+- Audio generation 	Finetune - audio generator (transformer model) 
+- LLM finetuning 	Finetune - LLM (Meta Llama 3.1 8B) 
+- Image generation 	Pretrain - Image generator (diffusion model) 
+- Recommendation system 	Train - recommendation system (factorization and embedding) 
+- Time-series forecasting 	Train - Time-series forecasting with LSTM
+
 ### CNN 图像分类
 - CNN 常用卷积核 3， pool 后尺寸减半。
 - 最后 flatten 后进入线性层
