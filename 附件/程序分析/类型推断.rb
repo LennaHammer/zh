@@ -141,7 +141,7 @@ run "(+ 1 2)"
 run "(lambda (x) x)" # lambda
 run "((lambda (x) x) 42)" # apply
 run "(let id (lambda (x) x) (begin (id 42) (id true)))" # let 多态
-run "(lambda (id) (begin (id 42) (id true))) (lambda (x) x))" # 故意报错
+run "(lambda (id) (begin (id 42) (id true))) (lambda (x) x))" rescue p $! # 故意报错
 
 
 
