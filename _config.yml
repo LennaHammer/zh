@@ -64,3 +64,5 @@ show_downloads: "false"
 paginate: 10
 kramdown:   
   hard_wrap: true
+github_metadata:
+  enabled: false
