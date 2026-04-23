@@ -82,7 +82,7 @@ Q: Do you like your hometown?
 A: To be honest, I really like my hometown. The main reason is that it’s really quiet and safe. For example, there are lots of parks where I can walk. All in all, it’s a really nice place to live.
 Do you want me to also give you 20 common Part 1 questions + sample answers using these phrases so you can see exactly how to use them? 😊
 
-## Reasons
+## Common Reasons
 
 Here are simple, common, natural reasons you can use in IELTS Speaking (Part 1, 2, 3) — they’re easy to remember, fit almost any topic, and sound like a real native speaker.
 
@@ -105,7 +105,54 @@ Do you want me to make super-short flashcards of these for you to memorise quick
 
 ---
 
+## Paraphrasing
+
+Absolutely! This is called paraphrasing — it’s super important for IELTS Speaking (especially Part 2 & 3) to show you have a wide vocabulary and don’t repeat simple words.
+I’ll give you common simple words that learners overuse, plus better, natural replacements with real speaking examples — exactly like you’d use in the IELTS test.
+
+
+1. Very + adjective (stop saying “very” all the time!)
+	Instead of: • very good • very bad • very happy • very tired • very big • very small
+	Use these:
+	• excellent / fantastic ✅ Original: The food was very good. ✅ Better: The food was excellent.
+	• terrible / awful ✅ Original: The weather was very bad. ✅ Better: The weather was awful.
+	• delighted / thrilled ✅ Original: I was very happy. ✅ Better: I was thrilled.
+	• exhausted ✅ Original: I was very tired after work. ✅ Better: I was exhausted after work.
+	• huge / massive ✅ Original: There was a very big crowd. ✅ Better: There was a huge crowd.
+	• tiny ✅ Original: The phone was very small. ✅ Better: The phone was tiny.
+
+
+2. Overused basic verbs
+	- Think → believe / feel / reckon / suppose ✅ Simple: I think city life is stressful. ✅ Better: I reckon city life is quite stressful. ✅ Better: I believe people should protect the environment.
+	- Like → enjoy / love / be keen on / be fond of ✅ Simple: I like reading books. ✅ Better: I enjoy reading books in my free time. ✅ Better: I’m keen on watching documentaries.
+	- Want → would like / hope to / wish to ✅ Simple: I want to travel abroad. ✅ Better: I would like to travel abroad next year.
+	- Make → cause / create / lead to ✅ Simple: Stress makes people tired. ✅ Better: Stress causes people to feel exhausted.
+	- Help → assist / support ✅ Simple: My parents help me a lot. ✅ Better: My parents support me a lot with my studies.
+
+
+3. Common nouns
+	- Thing → item / object / aspect / issue ✅ Simple: One important thing is education. ✅ Better: One important aspect is education. ✅ Simple: I bought many things. ✅ Better: I bought several items.
+	- People → individuals / residents / citizens ✅ Simple: Many people live in cities. ✅ Better: Many residents choose to live in urban areas.
+	- Problem → issue / challenge / difficulty ✅ Simple: There are many problems with tourism. ✅ Better: There are many issues with mass tourism.
+
+
+4. Linking words (simple → advanced)
+	- And → plus / furthermore / also ✅ Simple: I like reading and I like sports. ✅ Better: I like reading; plus, I enjoy playing sports.
+	- But → however / yet / though ✅ Simple: The city is busy but exciting. ✅ Better: The city is busy; however, it’s really exciting.
+	- So → therefore / that’s why ✅ Simple: I was tired so I went to bed early. ✅ Better: I was exhausted; that’s why I went to bed early.
+
+
+5. Full natural IELTS-style example
+	- Simple version (too basic for high band): “I think working from home is very good. People can save time and they don’t need to spend money on transport. But sometimes it’s very boring and people can be very lazy.”
+	- Improved version (paraphrased, band 7+): “I believe working from home is extremely beneficial. Individuals can save plenty of time and avoid spending money on transport. However, it can sometimes be monotonous, and people may become unmotivated.”
+
+
+Would you like me to make a quick cheat sheet of the most useful 20 paraphrases just for IELTS Speaking? It’ll be super easy to memorise
+
+---
+
 ## Part 3 Questions
+
 Here are high-quality, realistic IELTS Speaking Part 3 questions grouped by common IELTS topics (the most frequently tested ones in the exam):
 1. Work & Employment
 	1. Do you think people today work longer hours than in the past? Why?
@@ -157,52 +204,6 @@ Here are high-quality, realistic IELTS Speaking Part 3 questions grouped by comm
 	5. Why do people like to visit historical places?
 
 ---
-## Paraphrasing
-
-Absolutely! This is called paraphrasing — it’s super important for IELTS Speaking (especially Part 2 & 3) to show you have a wide vocabulary and don’t repeat simple words.
-I’ll give you common simple words that learners overuse, plus better, natural replacements with real speaking examples — exactly like you’d use in the IELTS test.
-
-
-1. Very + adjective (stop saying “very” all the time!)
-	Instead of: • very good • very bad • very happy • very tired • very big • very small
-	Use these:
-	• excellent / fantastic ✅ Original: The food was very good. ✅ Better: The food was excellent.
-	• terrible / awful ✅ Original: The weather was very bad. ✅ Better: The weather was awful.
-	• delighted / thrilled ✅ Original: I was very happy. ✅ Better: I was thrilled.
-	• exhausted ✅ Original: I was very tired after work. ✅ Better: I was exhausted after work.
-	• huge / massive ✅ Original: There was a very big crowd. ✅ Better: There was a huge crowd.
-	• tiny ✅ Original: The phone was very small. ✅ Better: The phone was tiny.
-
-
-2. Overused basic verbs
-	- Think → believe / feel / reckon / suppose ✅ Simple: I think city life is stressful. ✅ Better: I reckon city life is quite stressful. ✅ Better: I believe people should protect the environment.
-	- Like → enjoy / love / be keen on / be fond of ✅ Simple: I like reading books. ✅ Better: I enjoy reading books in my free time. ✅ Better: I’m keen on watching documentaries.
-	- Want → would like / hope to / wish to ✅ Simple: I want to travel abroad. ✅ Better: I would like to travel abroad next year.
-	- Make → cause / create / lead to ✅ Simple: Stress makes people tired. ✅ Better: Stress causes people to feel exhausted.
-	- Help → assist / support ✅ Simple: My parents help me a lot. ✅ Better: My parents support me a lot with my studies.
-
-
-3. Common nouns
-	- Thing → item / object / aspect / issue ✅ Simple: One important thing is education. ✅ Better: One important aspect is education. ✅ Simple: I bought many things. ✅ Better: I bought several items.
-	- People → individuals / residents / citizens ✅ Simple: Many people live in cities. ✅ Better: Many residents choose to live in urban areas.
-	- Problem → issue / challenge / difficulty ✅ Simple: There are many problems with tourism. ✅ Better: There are many issues with mass tourism.
-
-
-4. Linking words (simple → advanced)
-	- And → plus / furthermore / also ✅ Simple: I like reading and I like sports. ✅ Better: I like reading; plus, I enjoy playing sports.
-	- But → however / yet / though ✅ Simple: The city is busy but exciting. ✅ Better: The city is busy; however, it’s really exciting.
-	- So → therefore / that’s why ✅ Simple: I was tired so I went to bed early. ✅ Better: I was exhausted; that’s why I went to bed early.
-
-
-5. Full natural IELTS-style example
-	- Simple version (too basic for high band): “I think working from home is very good. People can save time and they don’t need to spend money on transport. But sometimes it’s very boring and people can be very lazy.”
-	- Improved version (paraphrased, band 7+): “I believe working from home is extremely beneficial. Individuals can save plenty of time and avoid spending money on transport. However, it can sometimes be monotonous, and people may become unmotivated.”
-
-
-Would you like me to make a quick cheat sheet of the most useful 20 paraphrases just for IELTS Speaking? It’ll be super easy to memorise
-
----
-
 ## Band 7
 
 Awesome! I’m gonna give you 3 SUPER EASY, IELTS-specific tricks that only take 10 seconds to learn but will instantly push you from Band 7 → 7.5 in Part 3.
@@ -319,6 +320,8 @@ Memorise this 4-step structure and use it for EVERY Part 3 answer:
 6. First reason
 7. Example or personal experience
 8. Second reason + contrast/result
+
+
 Example (Band 8 level):
 Q: Why do people prefer working from home?
 9. Direct: I believe people prefer home working mainly for convenience and comfort.
