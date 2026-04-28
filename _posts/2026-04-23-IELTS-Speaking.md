@@ -1,7 +1,9 @@
 ---
 layout: post
+title: IELTS Speaking
 ---
 # 雅思口语
+
 回答，长度，结构
 - P1： 15s，3句，直接回答+理由+例子。
 	- Q: Do you like reading? A: Yes, I really enjoy reading. Because it helps me relax after a long day. For example, I usually read novels before going to bed.
@@ -21,248 +23,48 @@ layout: post
 - 结构，给具体例子。
 
 
+## 语言
+### 短语
 
-## 短语
+
 Perfect! I’ll give you super practical, high-score IELTS Speaking phrases divided by function—you can use these in Part 1, 2, 3 right away, they’re natural and examiners love them ✅
 I’ll keep them simple but band 7+ level.
 🗣️ IELTS Speaking High-Frequency Phrases
 
 
-1. 1. Opening / Filler phrases (to avoid silence) • Well, … • To be honest, … • Actually, … • Let me think for a second… • That’s an interesting question. • I haven’t really thought about that before, but…
-2. 2. Giving opinions • I think that… • In my opinion,… • From my perspective,… • Personally, I feel that… • I’d say that…
-3. 3. Explaining reasons • The main reason is that… • Because… • What’s more,… • Also,… • Besides,…
-4. 4. Giving examples • For instance,… • For example,… • Like,… • Such as…
-5. 5. Adding extra details (to make your answer longer) • Especially… • In particular,… • As far as I’m concerned,… • Whenever I can, I…
-6. 6. Talking about past experiences • I remember when… • When I was younger,… • I’ve been… • I used to… • One time,…
-7. 7. Talking about the future • I plan to… • I’m hoping to… • I probably will… • If I have time, I’ll… • In the future, I’d like to…
-8. 8. Comparing (super useful for Part 3) • Compared with… • On the one hand,… On the other hand,… • …is much more… than… • …is not as… as…
-9. 9. Saying you don’t know / can’t remember • I’m not exactly sure, but… • I can’t recall the exact word, but it’s kind of like… • Off the top of my head, I think…
-10. 10. Concluding your idea • So overall,… • All in all,… • Basically,…
+1. Opening / Filler phrases (to avoid silence) • Well, … • To be honest, … • Actually, … • Let me think for a second… • That’s an interesting question. • I haven’t really thought about that before, but…
+2. Giving opinions • I think that… • In my opinion,… • From my perspective,… • Personally, I feel that… • I’d say that…
+3. Explaining reasons • The main reason is that… • Because… • What’s more,… • Also,… • Besides,…
+4. Giving examples • For instance,… • For example,… • Like,… • Such as…
+5. Adding extra details (to make your answer longer) • Especially… • In particular,… • As far as I’m concerned,… • Whenever I can, I…
+6. Talking about past experiences • I remember when… • When I was younger,… • I’ve been… • I used to… • One time,…
+7. Talking about the future • I plan to… • I’m hoping to… • I probably will… • If I have time, I’ll… • In the future, I’d like to…
+8. Comparing (super useful for Part 3) • Compared with… • On the one hand,… On the other hand,… • …is much more… than… • …is not as… as…
+9. Saying you don’t know / can’t remember • I’m not exactly sure, but… • I can’t recall the exact word, but it’s kind of like… • Off the top of my head, I think…
+10. Concluding your idea • So overall,… • All in all,… • Basically,…
 
 
 
 📌 Quick example (how to mix them naturally)
 Q: Do you like your hometown?
 A: To be honest, I really like my hometown. The main reason is that it’s really quiet and safe. For example, there are lots of parks where I can walk. All in all, it’s a really nice place to live.
-Do you want me to also give you 20 common Part 1 questions + sample answers using these phrases so you can see exactly how to use them? 😊
-
-## 理由
-
-Here are simple, common, natural reasons you can use in IELTS Speaking (Part 1, 2, 3) — they’re easy to remember, fit almost any topic, and sound like a real native speaker.
 
 
-1. Most common basic reasons (super safe & universal) • Because it’s convenient • Because it saves time • Because it’s comfortable • Because it’s relaxing • Because it’s enjoyable / fun • Because it’s cheap / affordable • Because it’s good for my health • Because it helps me reduce stress • Because I’m interested in it • Because I’m used to it
-2. Reasons for hobbies / free time • It helps me relax after a busy day • It lets me forget about work/study • It’s a good way to spend time with friends/family • I can learn new things from it • It makes me feel happy and positive
-3. Reasons for studying / working • It helps me get a better job in the future • It’s useful for my career • I want to improve my skills • I need it for my studies/work • It’s important for my future
-4. Reasons for choosing places (city, café, park, home) • Because it’s quiet and peaceful • Because it’s not crowded • Because the environment is nice/clean • Because it’s close to my home/school • Because the people there are friendly
-5. Reasons for preferences (food, clothes, music) • Because it tastes good • Because it’s fashionable • Because it’s easy to wear • Because the lyrics/melody are meaningful • Because it suits my taste
-6. Useful phrases to introduce reasons (native-like) • The main reason is that… • One reason is that… • Another reason is that… • I think this is because… • Mostly because… • For one thing…
+~~Do you want me to also give you 20 common Part 1 questions + sample answers using these phrases so you can see exactly how to use them? 😊~~
 
-
-Example sentence (you can copy structure)
-Q: Why do you like listening to music?
-A: The main reason is that it’s really relaxing. Also, it helps me reduce stress after studying all day.
-
-
-These work for any IELTS Speaking question — just pick 2-3 you like and memorise them!
-Do you want me to make super-short flashcards of these for you to memorise quickly?
-
----
-
-## 例子
-
- 
-
-~~Great question! This is the #1 secret to Band 7+ and 8 in Part 3 — most students know how to give an example, but they give boring, weak examples that don’t help their score.~~
-~~I’ll teach you exactly HOW to give a perfect Part 3 example (simple, fast, high-scoring, no stress) — with formulas you can memorise.~~
-~~First: Why examples matter in Part 3~~
-~~Part 3 is abstract, academic questions (not about your personal life like Part 1).~~
-~~If you only say general things, you sound shallow.~~
-~~→ Example = proof that you understand the topic deeply~~
-~~This directly raises your score for:~~
-~~✅ Fluency & Coherence~~
-~~✅ Lexical Resource (vocab)~~
-~~✅ Band 7, 7.5, 8~~
-
-### 例子的类型
-
-3 Types of Perfect Part 3 Examples (use ANY of these)
-You don’t need real true stories — you can make up 100% realistic examples. Examiners don’t check if it’s true, only if it’s natural.
-1. Personal / Someone you know example (easiest for you)
-	Formula:
-	For example, my + [friend/cousin/colleague/teacher] + who + action + what happened + result
-	Examples you can copy:
-	• For example, my cousin works in an office, and he has to commute two hours every day.
-	• For instance, my little sister does group projects at school, and she’s learned how to share ideas with classmates.
-	👉 Super easy, you can always invent someone you “know”.
-2. General people / society example (more mature = Band 8)
-	Formula:
-	For example, many + [people/employees/students/parents] + in + [place] + often + what they do
-	Samples:
-	• For example, many office workers in big cities waste a huge amount of time travelling to work.
-	• For instance, a lot of students nowadays use online tools to study from home.
-3. Compare past & present (Band 8 favourite — very impressive)
-	Formula:
-	For example, in the past, people + … but now, they + …
-	Samples:
-	• For example, in the past, people only used phones to talk, but now they can have video meetings online.
-	• For instance, in the past, teamwork wasn’t taught much at school, but now almost every class has group activities.
-
-What makes a BAD example (avoid these!)
-❌ Too short:
-“For example, me.” → useless, no score
-❌ Too long, storytelling like a movie:
-“Last Monday I woke up, then I ate breakfast, then I took bus…” → examiner gets bored
-❌ Not related to the question:
-Question about teamwork → you talk about your holiday → off-topic
-
-
-
-
-2 Magic Phrases to introduce examples (memorise these!)
-Use these every time you give an example — they sound Band 8 automatically:
-4. For example, … (most common, safe)
-5. For instance, … (a bit more academic, great for Part 3)
-6. Take … for example (also really good)
-
-
-Let me show you:
-Question + General idea + PERFECT Part 3 example
-7. Question: Why is working from home popular?
-General idea: It saves commuting time.
-✅ Example:
-For example, many people in big cities spend one or two hours travelling to work every day, so working at home lets them save that time.
-8. Question: Why should children learn teamwork?
-General idea: It helps their social skills.
-✅ Example:
-For instance, my nephew often does group work at school, and he’s become much more confident when talking to others.
-9. Question: Does technology make life easier?
-General idea: Communication is faster now.
-✅ Example:
-Take online meetings for example — in the past, people had to travel far to meet, but now they can talk face-to-face online instantly.
-
-
-
-
-
-Your turn (super simple practice)
-I give you a general idea, you make one short Part 3 example using the formula.
-Idea:
-Reading books improves people’s vocabulary.
-Try making one example — any kind (personal / general / past&present) is okay!
-I’ll check and tell you if it’s Band 8 level. 😊
-
-
-Absolutely! I’ll give you 5 different, ready-to-use Part 3 examples for this idea:
-👉 Idea: Reading books improves people’s vocabulary.
-Each one is Band 8 level, short, natural, and easy to memorise — you can directly copy these in your test.
-10. Personal example (easiest, safest)
-For example, I started reading English novels regularly last year,
-and I’ve learned so many new words that my vocabulary has become much wider than before.
-11. “Someone you know” example
-For instance, my younger brother reads storybooks every day,
-and his English teacher says he uses much more varied words than most students his age.
-12. General people example (mature, good for Band 8)
-For example, many people who read widely in their free time
-usually have a much richer vocabulary and can express themselves more clearly.
-13. Past vs Present example (very impressive for Band 8)
-For instance, in the past, many people only read textbooks,
-but now those who read novels or articles regularly develop a much larger vocabulary.
-14. Short, sharp example (great if you’re short on time)
-Take regular book readers for example —
-they naturally learn new words and phrases without having to memorise word lists.
-Quick tip for you:
-
-
-In the test, just pick ONE of these styles and make up a simple, believable story —
-it doesn’t have to be true, it just has to make sense.
-Want me to give you more ideas + their high-scoring examples (for other common IELTS topics like environment, social media, cities) so you have a whole bank to memorise?
-
-###  按照话题
-Perfect! I’ve prepared 10 super common IELTS Part 3 topics that come up every exam season,
-each with:
-✅ 1 core idea (the point you want to say)
-✅ 1 ready-to-use Band 8 example (short, natural, you can memorise & copy directly)
-All examples are simple enough for you to remember, but sound mature enough for Band 8.
-15. Topic: Social Media
-Idea: Social media helps people stay connected with distant friends.
-Example:
-For example, my cousin lives abroad now,
-but we keep in touch through social media every day,
-which would have been much harder 20 years ago.
-16. Topic: Education / Homework
-Idea: Too much homework makes students stressed.
-Example:
-For instance, many children in my country have to do homework until late at night,
-and they often feel tired and lose interest in studying.
-17. Topic: Environment / Recycling
-Idea: Recycling helps protect the environment.
-Example:
-Take paper recycling for example —
-if more people recycled paper, fewer trees would be cut down to make new products.
-18. Topic: Cities / Public Transport
-Idea: Public transport reduces traffic jams.
-Example:
-For example, in big cities like Beijing or Shanghai,
-if more people took the subway instead of driving,
-the roads would be much less crowded.
-19. Topic: Work / Salary
-Idea: Job satisfaction is more important than high salary.
-Example:
-For instance, my uncle has a well-paid job but hates going to work every day,
-so he’s much less happy than friends with lower salaries but enjoyable jobs.
-20. Topic: Technology / Phones
-Idea: Mobile phones make people less patient.
-Example:
-For example, many people now get angry if a website or app takes just a few seconds to load,
-whereas in the past people were happy to wait longer for information.
-21. Topic: Leisure / Outdoor Activities
-Idea: Outdoor activities are better for health than staying indoors.
-Example:
-Take hiking for example —
-people who go hiking regularly get more exercise and fresh air,
-so they are usually healthier and more relaxed.
-22. Topic: Food / Fast Food
-Idea: Fast food is unhealthy and causes weight problems.
-Example:
-For instance, many teenagers eat fast food several times a week,
-and this is one main reason why more young people are becoming overweight these days.
-23. Topic: Media / TV & News
-Idea: Watching the news helps people understand the world better.
-Example:
-For example, my grandparents watch the news every evening,
-and they know a lot about events in other countries even though they don’t travel.
-24. Topic: Old & Young / Generations
-Idea: Old people have more life experience than young people.
-Example:
-For instance, my parents often give me good advice about work and life,
-because they’ve faced similar problems when they were young.
-
-
-
-🎯 Super important secret for YOUR test:
-You don’t need to memorise all 10 — just pick 3–4 of these examples that you like,
-remember the pattern, and then make up your own similar one in the exam.
-You already think logically — adding these examples will push you straight to Band 8.
-Do you want me to now give you one full Part 3 question, and show you:
-✅ Full Band 8 answer
-+
-✅ Exactly where to put the example in the answer?
-## 改写
+### 改写
 
 Absolutely! This is called paraphrasing — it’s super important for IELTS Speaking (especially Part 2 & 3) to show you have a wide vocabulary and don’t repeat simple words.
 I’ll give you common simple words that learners overuse, plus better, natural replacements with real speaking examples — exactly like you’d use in the IELTS test.
 
 
-1. Very + adjective (stop saying “very” all the time!)
-	Instead of: • very good • very bad • very happy • very tired • very big • very small
-	Use these:
-	• excellent / fantastic ✅ Original: The food was very good. ✅ Better: The food was excellent.
-	• terrible / awful ✅ Original: The weather was very bad. ✅ Better: The weather was awful.
-	• delighted / thrilled ✅ Original: I was very happy. ✅ Better: I was thrilled.
-	• exhausted ✅ Original: I was very tired after work. ✅ Better: I was exhausted after work.
-	• huge / massive ✅ Original: There was a very big crowd. ✅ Better: There was a huge crowd.
-	• tiny ✅ Original: The phone was very small. ✅ Better: The phone was tiny.
+1. Very + adjective (stop saying “very” all the time!) - Instead of: • very good • very bad • very happy • very tired • very big • very small - Use these:
+	- very good→• excellent / fantastic ✅ Original: The food was very good. ✅ Better: The food was excellent.
+	- very bad→• terrible / awful ✅ Original: The weather was very bad. ✅ Better: The weather was awful.
+	- very happy→• delighted / thrilled ✅ Original: I was very happy. ✅ Better: I was thrilled.
+	- very tired→• exhausted ✅ Original: I was very tired after work. ✅ Better: I was exhausted after work.
+	- very big →• huge / massive ✅ Original: There was a very big crowd. ✅ Better: There was a huge crowd.
+	-  very small→• tiny ✅ Original: The phone was very small. ✅ Better: The phone was tiny.
 
 
 2. Overused basic verbs
@@ -290,165 +92,252 @@ I’ll give you common simple words that learners overuse, plus better, natural 
 	- Improved version (paraphrased, band 7+): “I believe working from home is extremely beneficial. Individuals can save plenty of time and avoid spending money on transport. However, it can sometimes be monotonous, and people may become unmotivated.”
 
 
-Would you like me to make a quick cheat sheet of the most useful 20 paraphrases just for IELTS Speaking? It’ll be super easy to memorise
+~~Would you like me to make a quick cheat sheet of the most useful 20 paraphrases just for IELTS Speaking? It’ll be super easy to memorise~~
 
 ---
 
  
 
-## 结构
+## 内容
 
-## 问题类型 
+### 理由
+
+Here are simple, common, natural reasons you can use in IELTS Speaking (Part 1, 2, 3) — they’re easy to remember, fit almost any topic, and sound like a real native speaker.
 
 
-## 话题
+1. Most common basic reasons (super safe & universal) • Because it’s convenient • Because it saves time • Because it’s comfortable • Because it’s relaxing • Because it’s enjoyable / fun • Because it’s cheap / affordable • Because it’s good for my health • Because it helps me reduce stress • Because I’m interested in it • Because I’m used to it
+2. Reasons for hobbies / free time • It helps me relax after a busy day • It lets me forget about work/study • It’s a good way to spend time with friends/family • I can learn new things from it • It makes me feel happy and positive
+3. Reasons for studying / working • It helps me get a better job in the future • It’s useful for my career • I want to improve my skills • I need it for my studies/work • It’s important for my future
+4. Reasons for choosing places (city, café, park, home) • Because it’s quiet and peaceful • Because it’s not crowded • Because the environment is nice/clean • Because it’s close to my home/school • Because the people there are friendly
+5. Reasons for preferences (food, clothes, music) • Because it tastes good • Because it’s fashionable • Because it’s easy to wear • Because the lyrics/melody are meaningful • Because it suits my taste
+6. Useful phrases to introduce reasons (native-like) • The main reason is that… • One reason is that… • Another reason is that… • I think this is because… • Mostly because… • For one thing…
+
+
+Example sentence (you can copy structure)
+Q: Why do you like listening to music?
+A: The main reason is that it’s really relaxing. Also, it helps me reduce stress after studying all day.
+
+
+These work for any IELTS Speaking question — just pick 2-3 you like and memorise them!
+Do you want me to make super-short flashcards of these for you to memorise quickly?
+
+---
+
+### 例子
+
+例子是用来支撑观点的。
+ 
+
+~~Great question! This is the #1 secret to Band 7+ and 8 in Part 3 — most students know how to give an example, but they give boring, weak examples that don’t help their score.~~
+~~I’ll teach you exactly HOW to give a perfect Part 3 example (simple, fast, high-scoring, no stress) — with formulas you can memorise.~~
+~~First: Why examples matter in Part 3~~
+~~Part 3 is abstract, academic questions (not about your personal life like Part 1).~~
+~~If you only say general things, you sound shallow.~~
+~~→ Example = proof that you understand the topic deeply~~
+~~This directly raises your score for:~~
+~~✅ Fluency & Coherence~~
+~~✅ Lexical Resource (vocab)~~
+~~✅ Band 7, 7.5, 8~~
+
+例子的类型
+
+3 Types of Perfect Part 3 Examples (use ANY of these)
+~~You don’t need real true stories — you can make up 100% realistic examples. Examiners don’t check if it’s true, only if it’s natural.~~
+
+
+1. Personal / Someone you know example (easiest for you) Formula:	For example, my + [friend/cousin/colleague/teacher] + who + action + what happened + result Examples you can copy:
+	• For example, my cousin works in an office, and he has to commute two hours every day.
+	• For instance, my little sister does group projects at school, and she’s learned how to share ideas with classmates.
+	👉 Super easy, you can always invent someone you “know”.
+2. General people / society example (more mature = Band 8) Formula:	For example, many + [people/employees/students/parents] + in + [place] + often + what they do Samples:
+	• For example, many office workers in big cities waste a huge amount of time travelling to work.
+	• For instance, a lot of students nowadays use online tools to study from home.
+3. Compare past & present (Band 8 favourite — very impressive) Formula:	For example, in the past, people + … but now, they + … Samples:
+	• For example, in the past, people only used phones to talk, but now they can have video meetings online.
+	• For instance, in the past, teamwork wasn’t taught much at school, but now almost every class has group activities.
+
+What makes a BAD example (avoid these!)
+❌ Too short: “For example, me.” → useless, no score
+❌ Too long, storytelling like a movie: “Last Monday I woke up, then I ate breakfast, then I took bus…” → examiner gets bored
+❌ Not related to the question: Question about teamwork → you talk about your holiday → off-topic
+
+
+2 Magic Phrases to introduce examples (memorise these!) Use these every time you give an example — they sound Band 8 automatically:
+1. For example, … (most common, safe)
+2. For instance, … (a bit more academic, great for Part 3)
+3. Take … for example (also really good)
+
+
+Let me show you: Question + General idea + PERFECT Part 3 example
+1. Question: Why is working from home popular? General idea: It saves commuting time. ✅ Example: For example, many people in big cities spend one or two hours travelling to work every day, so working at home lets them save that time.
+2. Question: Why should children learn teamwork? General idea: It helps their social skills. ✅ Example: For instance, my nephew often does group work at school, and he’s become much more confident when talking to others.
+3. Question: Does technology make life easier? General idea: Communication is faster now. ✅ Example: Take online meetings for example — in the past, people had to travel far to meet, but now they can talk face-to-face online instantly.
+
+
+
+
+
+~~Your turn (super simple practice)~~
+~~I give you a general idea, you make one short Part 3 example using the formula.~~
+~~Try making one example — any kind (personal / general / past&present) is okay!~~
+~~I’ll check and tell you if it’s Band 8 level. 😊~~
+
+~~Idea: Reading books improves people’s vocabulary.~~
+
+~~Absolutely! I’ll give you 5 different, ready-to-use Part 3 examples for this idea:~~
+~~Each one is Band 8 level, short, natural, and easy to memorise — you can directly copy these in your test.~~
+
+
+👉 Idea: Reading books improves people’s vocabulary.
+10. Personal example (easiest, safest) For example, I started reading English novels regularly last year, and I’ve learned so many new words that my vocabulary has become much wider than before.
+11. “Someone you know” example For instance, my younger brother reads storybooks every day, and his English teacher says he uses much more varied words than most students his age.
+12. General people example (mature, good for Band 8) For example, many people who read widely in their free time usually have a much richer vocabulary and can express themselves more clearly.
+13. Past vs Present example (very impressive for Band 8) For instance, in the past, many people only read textbooks, but now those who read novels or articles regularly develop a much larger vocabulary.
+14. Short, sharp example (great if you’re short on time) Take regular book readers for example — they naturally learn new words and phrases without having to memorise word lists.
+
+
+Quick tip for you: In the test, just pick ONE of these styles and make up a simple, believable story — it doesn’t have to be true, it just has to make sense.
+
+
+
+Want me to give you more ideas + their high-scoring examples (for other common IELTS topics like environment, social media, cities) so you have a whole bank to memorise?
+
+按照话题
+
+Perfect! I’ve prepared 10 super common IELTS Part 3 topics that come up every exam season,
+each with:
+✅ 1 core idea (the point you want to say)
+✅ 1 ready-to-use Band 8 example (short, natural, you can memorise & copy directly)
+All examples are simple enough for you to remember, but sound mature enough for Band 8.
+
+
+1. Topic: Social Media。 Idea: Social media helps people stay connected with distant friends. Example: For example, my cousin lives abroad now, but we keep in touch through social media every day, which would have been much harder 20 years ago.
+2. Topic: Education / Homework。 Idea: Too much homework makes students stressed. Example: For instance, many children in my country have to do homework until late at night, and they often feel tired and lose interest in studying.
+3. Topic: Environment / Recycling。 Idea: Recycling helps protect the environment. Example: Take paper recycling for example — if more people recycled paper, fewer trees would be cut down to make new products.
+4. Topic: Cities / Public Transport。 Idea: Public transport reduces traffic jams. Example: For example, in big cities like Beijing or Shanghai, if more people took the subway instead of driving, the roads would be much less crowded.
+5. Topic: Work / Salary。 Idea: Job satisfaction is more important than high salary. Example: For instance, my uncle has a well-paid job but hates going to work every day, so he’s much less happy than friends with lower salaries but enjoyable jobs.
+6. Topic: Technology / Phones。 Idea: Mobile phones make people less patient. Example: For example, many people now get angry if a website or app takes just a few seconds to load, whereas in the past people were happy to wait longer for information.
+7. Topic: Leisure / Outdoor Activities。 Idea: Outdoor activities are better for health than staying indoors. Example: Take hiking for example — people who go hiking regularly get more exercise and fresh air, so they are usually healthier and more relaxed.
+8. Topic: Food / Fast Food。 Idea: Fast food is unhealthy and causes weight problems. Example: For instance, many teenagers eat fast food several times a week, and this is one main reason why more young people are becoming overweight these days.
+9. Topic: Media / TV & News。 Idea: Watching the news helps people understand the world better. Example: For example, my grandparents watch the news every evening, and they know a lot about events in other countries even though they don’t travel.
+10. Topic: Old & Young / Generations。 Idea: Old people have more life experience than young people. Example: For instance, my parents often give me good advice about work and life, because they’ve faced similar problems when they were young.
+
+
+
+🎯 Super important secret for YOUR test:
+You don’t need to memorise all 10 — just pick 3–4 of these examples that you like,
+remember the pattern, and then make up your own similar one in the exam.
+You already think logically — adding these examples will push you straight to Band 8.
+Do you want me to now give you one full Part 3 question, and show you:
+✅ Full Band 8 answer
++
+✅ Exactly where to put the example in the answer?
+### 话题
 
 ## 高分技巧
 
 
-## 结构
+## 通用结构
 
-Here’s a simple, clear structure you can use for every part of IELTS Speaking. It’s easy to remember and helps you get a high score for fluency and coherence.
+~~Here’s a simple, clear structure you can use for every part of IELTS Speaking. It’s easy to remember and helps you get a high score for fluency and coherence.~~
+
+
 Part 1 Structure
-Goal: short, natural answer (15–25 seconds)
-Use this formula:
-Direct answer + Reason + Example / Extra detail
-Example:
-Q: Do you like reading?
-A:
-Yes, I really enjoy reading.
-Because it helps me relax after a long day.
-For example, I usually read novels before going to bed.
+- Goal: short, natural answer (15–25 seconds)
+- Use this formula: - Direct answer + Reason + Example / Extra detail
+- Example:
+	- Q: Do you like reading?
+	- A:
+	- Yes, I really enjoy reading.
+	- Because it helps me relax after a long day.
+	- For example, I usually read novels before going to bed.
+
+
 Part 2 Structure (Cue Card)
-Goal: 1.5–2 minutes, well-organised
-Follow this:
-1. Introduction
-- Simple opening sentence about the topic
-2. Cover all 4 points on the card
-- One small paragraph for each point
-- Add who, what, when, where, why, how
-3. Conclusion
-- A short ending (how you felt, what you learned, why it was important)
-You can also remember:
-P – O – I – N – T
-- Person / Place
-- Occasion
-- Information (details)
-- Narration (story)
-- Thoughts / Feelings
+- Goal: 1.5–2 minutes, well-organised
+- Follow this:
+	1. Introduction - Simple opening sentence about the topic
+	2. Cover all 4 points on the card - One small paragraph for each point - Add who, what, when, where, why, how
+	3. Conclusion - A short ending (how you felt, what you learned, why it was important)
+- You can also remember: P – O – I – N – T - Person / Place - Occasion - Information (details) - Narration (story) - Thoughts / Feelings
+
 Part 3 Structure
-Goal: longer, academic answer (45–60 seconds)
-Use this strong structure:
-Opinion → Reason → Example → Alternative / Effect → Conclusion
-Or the simpler version:
-POINT → REASON → EXAMPLE → RESULT
-Example:
-Q: Why do people like traveling?
-A:
-I think people love travelling because it allows them to experience new cultures.
-For instance, they can try local food and meet different people.
-As a result, they become more open-minded.
+- Goal: longer, academic answer (45–60 seconds)
+- Use this strong structure: - Opinion → Reason → Example → Alternative / Effect → Conclusion
+- Or the simpler version: - POINT → REASON → EXAMPLE → RESULT
+- Example:
+	- Q: Why do people like traveling?
+	- A:
+	- I think people love travelling because it allows them to experience new cultures.
+	- For instance, they can try local food and meet different people.
+	- As a result, they become more open-minded.
+
+
 Super-short version to memorize
 - Part 1: Answer + Why + Example
 - Part 2: Intro → 4 points → Conclusion
 - Part 3: Opinion → Reason → Example → Result
 If you want, I can give you one sample answer for each part using exactly this structure.
-##  问题的类型
 
-IELTS Speaking Question Types (Part 1 / 2 / 3)
-The exam order is always:
-Part 1 → Part 2 → Part 3
-1. Part 1 Question Types
-Everyday topics, simple & personal
-- Yes/No & preference questions
-Do you like…? Do you often…? Would you prefer…?
-- Frequency questions
-How often do you…?
-- Habit & routine questions
-What do you usually do…?
-- Opinion (simple)
-What do you think of…?
-- Past / childhood questions
-Did you… when you were a child?
-- Future / plan questions
-Would you like to… in the future?
-2. Part 2 Question Types
-Long turn: 1–2 minutes talk
-All are cue-card topics, usually one of these:
-- People
-Describe a friend / family member / famous person
-- Place
-Describe a city / park / shop / restaurant
-- Object / thing
-Describe a photo / gift / book / machine
-- Event / experience
-Describe a happy event / trip / success / difficult time
-- Skill / activity
-Describe a hobby / sport / new skill
-All Part 2 cards follow the same structure:
-What it was → When/Where → Who with → What you did → Why you liked it
-3. Part 3 Question Types
-Abstract & discussion questions (two-way discussion)
-- Cause & effect
-Why do people…? What effects does… have?
-- Advantages & disadvantages
-What are the benefits/problems of…?
-- Comparison (past vs now / young vs old)
-How is… different from the past?
-- Prediction / future
-How will… change in the future?
-- Problem & solution
-What problems does… cause? How to solve them?
-- Opinion & evaluation
-Do you think…? To what extent…?
-- Social trend / culture
-How do people in your country feel about…?
-Quick Summary
-- Part 1: personal, simple, daily life
-- Part 2: describe a person/place/thing/event for 2 mins
-- Part 3: social issues, compare, explain why, predict future
-Want me to show you one real example for each type?
-## 题目的问法
+
+## 问题类型
+
+问题的类型+结构+示例
+
 Here are clear sample answers for every type of question in Part 1 / 2 / 3, strictly following the structure we talked about:
 Direct Answer → Reason → Example → Extra
-Part 1 Samples (Personal Questions)
-1. Yes / No question
-Q: Do you like cooking?
-A:
-Yes, I quite enjoy cooking.
-Because it’s a good way to relax and make something tasty.
-For example, I often cook simple dishes like noodles or fried rice after work.
-2. Preference question
-Q: Do you prefer studying alone or in a group?
-A:
-I definitely prefer studying alone.
-Because I can focus better without distractions.
-Usually, I study in my room with some quiet music.
-3. Frequency question
-Q: How often do you use social media?
-A:
-I use social media almost every day.
-Because it helps me keep in touch with friends.
-For instance, I check messages in the morning and evening.
-4. Habit / Routine question
-Q: What do you usually do on weekends?
-A:
-I usually hang out with friends or go shopping.
-Because I want to relax after a busy week.
-Sometimes I also watch movies at home.
-5. Past / Childhood question
-Q: Did you like drawing when you were a child?
-A:
-Yes, I loved drawing when I was little.
-Because it felt fun and creative.
-I remember drawing animals and flowers for my parents.
-6. Future / Plan question
-Q: Would you like to travel abroad in the future?
-A:
-Yes, I’d love to travel overseas.
-Because I want to experience different cultures.
-Hopefully, I can visit some European countries next year.
 
+
+Part 1： Personal Questions
+1. Yes / No question
+	Q: Do you like cooking?
+	A:
+	Yes, I quite enjoy cooking.
+	Because it’s a good way to relax and make something tasty.
+	For example, I often cook simple dishes like noodles or fried rice after work.
+2. Preference question
+	Q: Do you prefer studying alone or in a group?
+	A:
+	I definitely prefer studying alone.
+	Because I can focus better without distractions.
+	Usually, I study in my room with some quiet music.
+3. Frequency question
+	Q: How often do you use social media?
+	A:
+	I use social media almost every day.
+	Because it helps me keep in touch with friends.
+	For instance, I check messages in the morning and evening.
+4. Habit / Routine question
+	Q: What do you usually do on weekends?
+	A:
+	I usually hang out with friends or go shopping.
+	Because I want to relax after a busy week.
+	Sometimes I also watch movies at home.
+5. Past / Childhood question
+	Q: Did you like drawing when you were a child?
+	A:
+	Yes, I loved drawing when I was little.
+	Because it felt fun and creative.
+	I remember drawing animals and flowers for my parents.
+6. Future / Plan question
+	Q: Would you like to travel abroad in the future?
+	A:
+	Yes, I’d love to travel overseas.
+	Because I want to experience different cultures.
+	Hopefully, I can visit some European countries next year.
+
+
+Part 2 Question Types
+Long turn: 1–2 minutes talk
+All are cue-card topics, usually one of these:
+- People：Describe a friend / family member / famous person
+- Place：Describe a city / park / shop / restaurant
+- Object / thing：Describe a photo / gift / book / machine
+- Event / experience：Describe a happy event / trip / success / difficult time
+- Skill / activity：Describe a hobby / sport / new skill
+
+All Part 2 cards follow the same structure:
+What it was → When/Where → Who with → What you did → Why you liked it
 
 Part 2 Sample (Cue Card)
 Topic: Describe a memorable trip you had.
@@ -467,165 +356,197 @@ Finally, it was memorable because the food was amazing and we had so much fun to
 
 
 
-Part 3 Samples (Discussion Questions)
+Part 3：Discussion Questions
 1. Cause & Effect
-Q: Why do people like travelling?
-A:
-I think people enjoy travelling mainly because they want to escape daily stress.
-For example, working or studying every day can be tiring, so travelling helps them relax.
-Also, it allows people to learn about new cultures and meet different people.
+	Q: Why do people like travelling?
+	A:
+	I think people enjoy travelling mainly because they want to escape daily stress.
+	For example, working or studying every day can be tiring, so travelling helps them relax.
+	Also, it allows people to learn about new cultures and meet different people.
 2. Advantages & Disadvantages
-Q: What are the advantages and disadvantages of tourism?
-A:
-On one hand, tourism brings money and jobs to local people.
-On the other hand, too many tourists can cause pollution and overcrowding.
-Overall, it’s good for the economy but needs to be well managed.
+	Q: What are the advantages and disadvantages of tourism?
+	A:
+	On one hand, tourism brings money and jobs to local people.
+	On the other hand, too many tourists can cause pollution and overcrowding.
+	Overall, it’s good for the economy but needs to be well managed.
 3. Comparison (Past vs Now)
-Q: How has travelling changed compared to the past?
-A:
-Travelling is much easier and faster now than before.
-In the past, people used buses or trains, but now we have planes and high-speed trains.
-Also, people can book tickets online easily, which was not possible many years ago.
+	Q: How has travelling changed compared to the past?
+	A:
+	Travelling is much easier and faster now than before.
+	In the past, people used buses or trains, but now we have planes and high-speed trains.
+	Also, people can book tickets online easily, which was not possible many years ago.
 4. Future / Prediction
-Q: How will people travel in the future?
-A:
-I believe people will travel more by high-tech transport like smart planes or even flying cars.
-Besides, travelling might become more environmentally friendly.
-In general, trips will be faster, safer and more comfortable.
+	Q: How will people travel in the future?
+	A:
+	I believe people will travel more by high-tech transport like smart planes or even flying cars.
+	Besides, travelling might become more environmentally friendly.
+	In general, trips will be faster, safer and more comfortable.
 5. Problem & Solution
-Q: What problems does over-tourism cause? How to solve them?
-A:
-Over-tourism can damage historic places and make cities too crowded.
-One solution is to limit the number of visitors each day.
-Another way is to encourage people to visit quieter areas instead of only famous spots.
+	Q: What problems does over-tourism cause? How to solve them?
+	A:
+	Over-tourism can damage historic places and make cities too crowded.
+	One solution is to limit the number of visitors each day.
+	Another way is to encourage people to visit quieter areas instead of only famous spots.
 6. Opinion / Evaluation
-Q: Do you think children should travel more?
-A:
-Yes, I think children should travel more.
-Because travelling helps them learn about the world and become more independent.
-It also broadens their minds more than just reading books.
-If you want, I can give you a cheat sheet template you can memorize for any question.
+	Q: Do you think children should travel more?
+	A:
+	Yes, I think children should travel more.
+	Because travelling helps them learn about the world and become more independent.
+	It also broadens their minds more than just reading books.
+	If you want, I can give you a cheat sheet template you can memorize for any question.
 
 
+
+问题的类型
+
+IELTS Speaking Question Types (Part 1 / 2 / 3)
+The exam order is always:
+Part 1 → Part 2 → Part 3
+
+
+Part 1 Question Types
+Everyday topics, simple & personal
+- Yes/No & preference questions
+Do you like…? Do you often…? Would you prefer…?
+- Frequency questions
+How often do you…?
+- Habit & routine questions
+What do you usually do…?
+- Opinion (simple)
+What do you think of…?
+- Past / childhood questions
+Did you… when you were a child?
+- Future / plan questions
+Would you like to… in the future?
+
+
+
+
+Part 3 Question Types
+Abstract & discussion questions (two-way discussion)
+- Cause & effect
+Why do people…? What effects does… have?
+- Advantages & disadvantages
+What are the benefits/problems of…?
+- Comparison (past vs now / young vs old)
+How is… different from the past?
+- Prediction / future
+How will… change in the future?
+- Problem & solution
+What problems does… cause? How to solve them?
+- Opinion & evaluation
+Do you think…? To what extent…?
+- Social trend / culture
+How do people in your country feel about…?
+
+
+Quick Summary
+- Part 1: personal, simple, daily life
+- Part 2: describe a person/place/thing/event for 2 mins
+- Part 3: social issues, compare, explain why, predict future
+Want me to show you one real example for each type?
 
 ## 示范回答
 
-Here are natural, band 7+ example answers for all those Part 1 questions — short, fluent, and easy to copy.
+Part 1 通常简单一点的回答就可以了。
+
+~~Here are natural, band 7+ example answers for all those Part 1 questions — short, fluent, and easy to copy.~~
 1. Hometown
-- Where are you from?
-I’m from Chengdu, a big city in the southwest of China.
-- Do you like your hometown?
-Yes, I really like it. It’s relaxing and has a really nice atmosphere.
-- What do you like most about your hometown?
-I love the food and the slow lifestyle. People there are very friendly.
-- Would you like to live there in the future?
-Maybe. For now I enjoy living in a bigger city, but I might go back later.
+	- Where are you from? I’m from Chengdu, a big city in the southwest of China.
+	- Do you like your hometown? Yes, I really like it. It’s relaxing and has a really nice atmosphere.
+	- What do you like most about your hometown? I love the food and the slow lifestyle. People there are very friendly.
+	- Would you like to live there in the future? Maybe. For now I enjoy living in a bigger city, but I might go back later.
 2. Study / Work
-- Are you studying or working?
-I’m currently a university student.
-- What’s your major?
-My major is Business Administration.
-- Do you like your study?
-Yes, I do. It’s challenging but interesting, and I learn many useful skills.
-- What do you usually do at school?
-I attend lectures, do group projects, and spend time in the library.
+	- Are you studying or working? I’m currently a university student.
+	- What’s your major? My major is Business Administration.
+	- Do you like your study? Yes, I do. It’s challenging but interesting, and I learn many useful skills.
+	- What do you usually do at school? I attend lectures, do group projects, and spend time in the library.
 3. Home / Accommodation
-- Do you live in a house or an apartment?
-I live in a small apartment with my family.
-- What’s your favorite room?
-My favorite room is the living room, because it’s bright and comfortable.
-- What do you like about your home?
-I like that it’s quiet and cozy, a good place to relax after a busy day.
+	- Do you live in a house or an apartment? I live in a small apartment with my family.
+	- What’s your favorite room? My favorite room is the living room, because it’s bright and comfortable.
+	- What do you like about your home? I like that it’s quiet and cozy, a good place to relax after a busy day.
 4. Daily Routine
-- What do you usually do in the morning?
-I usually get up early, have breakfast, and then go to class or work.
-- Do you prefer busy days or relaxing days?
-I prefer a balance, but I enjoy relaxing days more because I can rest.
+	- What do you usually do in the morning? I usually get up early, have breakfast, and then go to class or work.
+	- Do you prefer busy days or relaxing days? I prefer a balance, but I enjoy relaxing days more because I can rest.
 5. Food & Cooking
-- Do you like cooking?
-Not really. I’m not very good at it, so I usually eat out or order food.
-- What’s your favorite food?
-My favorite food is hot pot. It’s tasty and great to share with friends.
-- Do you often eat out?
-Yes, quite often. I’m too busy to cook, so I eat at restaurants.
+	- Do you like cooking? Not really. I’m not very good at it, so I usually eat out or order food.
+	- What’s your favorite food? My favorite food is hot pot. It’s tasty and great to share with friends.
+	- Do you often eat out? Yes, quite often. I’m too busy to cook, so I eat at restaurants.
 6. Free Time / Hobbies
-- What do you usually do in your free time?
-I like reading, watching movies, and hanging out with friends.
-- Do you prefer staying at home or going out?
-It depends. Sometimes I like staying in, but I also enjoy going out on weekends.
-- Do you like reading/watching movies/sports?
-I enjoy watching movies, especially comedies and science fiction.
+	- What do you usually do in your free time? I like reading, watching movies, and hanging out with friends.
+	- Do you prefer staying at home or going out? It depends. Sometimes I like staying in, but I also enjoy going out on weekends.
+	- Do you like reading/watching movies/sports? I enjoy watching movies, especially comedies and science fiction.
 7. Weather & Seasons
-- What’s the weather like in your city?
-It’s usually mild in spring and autumn, hot in summer and cold in winter.
-- Do you prefer hot or cold weather?
-I prefer cool weather. I don’t like extremely hot or cold days.
-- What’s your favorite season?
-My favorite season is autumn, because the weather is comfortable.
+	- What’s the weather like in your city?	It’s usually mild in spring and autumn, hot in summer and cold in winter.
+	- Do you prefer hot or cold weather?	I prefer cool weather. I don’t like extremely hot or cold days.
+	- What’s your favorite season?	My favorite season is autumn, because the weather is comfortable.
 8. Friends
-- How often do you meet your friends?
-I meet my friends about once or twice a week.
-- What do you usually do together?
-We often go shopping, watch movies, or have meals together.
+	- How often do you meet your friends?	I meet my friends about once or twice a week.
+	- What do you usually do together?	We often go shopping, watch movies, or have meals together.
 9. Shopping
-- Do you like shopping?
-Yes, I enjoy shopping, especially buying clothes and snacks.
-- Do you prefer online or real stores?
-I prefer online shopping because it’s more convenient and cheaper.
+	- Do you like shopping?	Yes, I enjoy shopping, especially buying clothes and snacks.
+	- Do you prefer online or real stores?	I prefer online shopping because it’s more convenient and cheaper.
 10. Travel
-- Do you like traveling?
-Yes, I love traveling. It helps me relax and see new places.
-- Where have you been recently?
-I went to a nearby mountain town last month. It was very beautiful.
-If you want, I can ask you these questions one by one and correct your answers like a real IELTS examiner.
+	- Do you like traveling?	Yes, I love traveling. It helps me relax and see new places.
+	- Where have you been recently?	I went to a nearby mountain town last month. It was very beautiful.
 
 
-## 结构
+~~If you want, I can ask you these questions one by one and correct your answers like a real IELTS examiner.~~
+
+Part 2
+
+Part 3
+
+## 补充
+
+注意问 ChatGPT 的时候用英语问，不要用中文问，语言会影响思维方式。
+给一些背景资料或者引导，不要简单地直接就问，这样回答可能会不够具体。
+
+### 结构
+
+
+结构：直接回答+额外补充（原因、例子、细节、感受）来支撑观点。
 
 Absolutely! All my Part 1 answers follow a super simple, repeatable structure that’s perfect for IELTS — it’s designed for fluency, coherence, and band 7+.
-I only use 2 basic structures for all Part 1 questions:
-1. Short-answer structure (for simple Yes/No questions)
-Formula:
-Direct answer → short reason / extra detail (1 sentence)
-Example:
-Q: Do you like cooking?
-A: No, not really.
-→ Direct answer
-I’m not very good at it, so I usually eat out instead.
-→ Reason / extra detail
-Why this works:
-- Not too short (not just “Yes”)
-- Not too long
-- Sounds natural, like a real conversation
 
-1. Longer-answer structure (for “What / Where / How” questions)
-Formula:
-Direct fact → 1 extra description / feeling
-Example:
-Q: Where are you from?
-A: I’m from Chengdu, a big city in the southwest of China.
-→ Direct fact
-It’s famous for its relaxing lifestyle and delicious food.
-→ Extra description
+
+I only use 2 basic structures for all Part 1 questions:
+
+for simple Yes/No questions
+Formula: Direct answer → short reason / extra detail (1 sentence)
+Example: Q: Do you like cooking? A: No, not really. I’m not very good at it, so I usually eat out instead. 
+Why this works: - Not too short (not just “Yes”) - Not too long - Sounds natural, like a real conversation
+
+for “What / Where / How” questions
+Formula: Direct fact → 1 extra description / feeling
+Example: Q: Where are you from? A: I’m from Chengdu, a big city in the southwest of China. It’s famous for its relaxing lifestyle and delicious food.
+
+
 Let me show you the structure marked clearly
 Take one from earlier:
+
+
 Q: What do you like most about your hometown?
 A:
 I love the food and the slow lifestyle.
 → Direct answer (core point)
 People there are very friendly and always in a good mood.
 → Extra detail (supports the answer)
-Another one:
+
+
 Q: Do you prefer hot weather or cold weather?
 A:
 I prefer cool weather.
 → Direct choice
 I feel uncomfortable when it’s too hot or too cold.
 → Reason
+
 The golden rule for IELTS Speaking Part 1
 Answer in 2 sentences maximum:
 1. Answer the question directly
 2. Add one small extra: reason, example, feeling, or detail
+
+
 That’s it.
 No complicated grammar needed.
 No long stories.
