@@ -13,7 +13,7 @@ title: IELTS Speaking
 问题，问法
 - P1，喜欢，
 - P2
-- P3：列举，好处坏处，过去未来，观点，
+- P3：列举，好处坏处，过去未来，观点。看看要不要分几点说。要不要给出支撑内容。
 问题，话题：
 - P1：工作/学习，家乡，住宅，爱好（书、电影、运动）。
 提分技巧，
@@ -29,6 +29,8 @@ title: IELTS Speaking
 
 Perfect! I’ll give you super practical, high-score IELTS Speaking phrases divided by function—you can use these in Part 1, 2, 3 right away, they’re natural and examiners love them ✅
 I’ll keep them simple but band 7+ level.
+
+
 🗣️ IELTS Speaking High-Frequency Phrases
 
 
