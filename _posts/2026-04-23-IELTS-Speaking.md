@@ -23,6 +23,7 @@ title: IELTS Speaking
 - 结构，给具体例子。
 
 
+
 ## 语言
 ### 短语和句型
 
@@ -34,16 +35,16 @@ I’ll keep them simple but band 7+ level.
 🗣️ IELTS Speaking High-Frequency Phrases
 
 
-1. Opening / Filler phrases (to avoid silence) • Well, … • To be honest, … • Actually, … • Let me think for a second… • That’s an interesting question. • I haven’t really thought about that before, but…
-2. Giving opinions • I think that… • In my opinion,… • From my perspective,… • Personally, I feel that… • I’d say that…
-3. Explaining reasons • The main reason is that… • Because… • What’s more,… • Also,… • Besides,…
-4. Giving examples • For instance,… • For example,… • Like,… • Such as…
-5. Adding extra details (to make your answer longer) • Especially… • In particular,… • As far as I’m concerned,… • Whenever I can, I…
-6. Talking about past experiences • I remember when… • When I was younger,… • I’ve been… • I used to… • One time,…
-7. Talking about the future • I plan to… • I’m hoping to… • I probably will… • If I have time, I’ll… • In the future, I’d like to…
-8. Comparing (super useful for Part 3) • Compared with… • On the one hand,… On the other hand,… • …is much more… than… • …is not as… as…
+1. **Opening / Filler phrases** (to avoid silence) • Well, … • To be honest, … • Actually, … • Let me think for a second… • That’s an interesting question. • I haven’t really thought about that before, but…
+2. **Giving opinions** • I think that… • In my opinion,… • From my perspective,… • Personally, I feel that… • I’d say that…
+3. **Explaining reasons** • The main reason is that… • Because… • What’s more,… • Also,… • Besides,…
+4. **Giving examples** • For instance,… • For example,… • Like,… • Such as…
+5. **Adding extra details** (to make your answer longer) • Especially… • In particular,… • As far as I’m concerned,… • Whenever I can, I…
+6. **Talking about past experiences** • I remember when… • When I was younger,… • I’ve been… • I used to… • One time,…
+7. **Talking about the future** • I plan to… • I’m hoping to… • I probably will… • If I have time, I’ll… • In the future, I’d like to…
+8. **Comparing** (super useful for Part 3) • Compared with… • On the one hand,… On the other hand,… • …is much more… than… • …is not as… as…
 9. Saying you don’t know / can’t remember • I’m not exactly sure, but… • I can’t recall the exact word, but it’s kind of like… • Off the top of my head, I think…
-10. Concluding your idea • So overall,… • All in all,… • Basically,…
+10. **Concluding your idea** • So overall,… • All in all,… • Basically,…
 
 
 
@@ -239,8 +240,12 @@ Do you want me to now give you one full Part 3 question, and show you:
 
 ## 高分技巧
 
+语法：
+结构：
 
-## 通用结构
+
+
+## 通用结构和模板
 
  
 
@@ -285,7 +290,7 @@ If you want, I can give you one sample answer for each part using exactly this s
 
  
 
-#### 回答的结构
+#### 回答的结构和模板
 
 
 If you want, I can show you exact structure templates for both parts.
@@ -427,7 +432,7 @@ Super-short version to memorize
 - Part 3: Opinion → Reason → Example → Result
 If you want, I can give you one sample answer for each part using exactly this structure.
 
-## 话题
+## 按照话题
 
 #### 问题
 Part 1 (Daily Topics, Short Answers)
@@ -641,7 +646,7 @@ Here are natural, band 7+ example answers for all those Part 1 questions — sho
 #### Part 2
 
 #### Part 3
-## 问法
+## 按照问法
 
 IELTS Speaking Question Types (Part 1 / 2 / 3)
 The exam order is always:
@@ -986,7 +991,7 @@ Part 3：Discussion Questions
 注意问 ChatGPT 的时候用英语问，不要用中文问，语言会影响思维方式。
 给一些背景资料或者引导，不要简单地直接就问，这样回答可能会不够具体。
 
-## 结构（删除）
+### 结构（删除）
 
 Absolutely! All my Part 1 answers follow a super simple, repeatable structure that’s perfect for IELTS — it’s designed for fluency, coherence, and band 7+.
 I only use 2 basic structures for all Part 1 questions:
