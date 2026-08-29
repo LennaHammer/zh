@@ -1,13 +1,19 @@
 
 目前 published 的帖子列表是：
-- 2026-06-23 未命名文件
+- 2026-08-28 博客
+- 2026-08-27 财务报表分析
+- 2026-08-27 TI-计算器
+- 2026-08-27 经济学一般均衡模型
+- 2026-08-27 经济学因果推断
+- 2026-08-27 量化交易
+- 2026-06-23 无名
 - 2026-05-04 什么是分析
 - 2026-05-03 写一点小的演示
 - 2026-04-23 IELTS Speaking
-- 2026-04-18 词汇笔记2-词汇表
-- 2026-04-18 词汇笔记1-词汇用法
-- 2026-04-18 看老友记学英语
 - 2026-04-18 学术写作2
+- 2026-04-18 看老友记学英语
+- 2026-04-18 词汇笔记1-词汇用法
+- 2026-04-18 词汇笔记2-词汇表
 - 2026-04-13 一些Ruby代码片段5-图论算法和排列组合
 - 2026-03-28 经济学数据分析
 - 2026-03-22 用 Python 进行程序分析
@@ -16,15 +22,15 @@
 - 2026-03-19 组合优化问题
 - 2026-03-16 大语言模型1-基本用法
 - 2026-03-15 如何应对目标
+- 2026-02-23 Ruby代码片段4-搜索与规划
 - 2026-02-23 心情日记
-- 2026-02-23 一些Ruby代码片段4-搜索与规划
-- 2026-02-18 英语词缀词根1-常见词缀词根
-- 2026-02-18 英语词缀词根2-单词列表
+- 2026-02-18 英语常见词缀词根
+- 2026-02-18 英语词根和单词
 - 2026-02-18 英语笔记-读音
 - 2026-02-17 如何阅读一本书
 - 2026-02-13 数学笔记1
 - 2026-01-18 Python 片段
-- 2026-01-18 一些 Ruby 代码片段3 常见算法
+- 2026-01-18 Ruby 代码片段3 常见算法
 - 2026-01-17 LaTeX 的使用
 - 2026-01-16 Java 网络应用开发
 - 2025-12-07 学术写作1
@@ -44,7 +50,7 @@
 - 2025-01-02 读句子背单词2 走遍美国背单词
 - 2024-12-27 读句子背单词1 新概念英语背单词
 - 2024-12-24 一些 Ruby 代码片段2 趣味代码
-- 2024-12-23 一些 Ruby 代码片段
+- 2024-12-23 Ruby 代码片段
 - 2024-12-23 用 Python 进行数据分析1 数据的处理
 - 2024-12-23 第一篇帖子，知识的由来和去向
 
@@ -58,6 +64,22 @@ from pathlib import Path
 
 posts_dir = Path(__file__).parent / "_posts"
 results = []
+
+# 把 date 字段标准化为 YYYY-MM-DD（去掉时间部分、补齐个位月份/日），仅用于显示
+def norm_date(d):
+    d = d.split(" ")[0].split("T")[0]
+    return "-".join(p.zfill(2) for p in d.split("-"))
+
+# 排序用的键：优先取 yaml 的 date，保留时间，保证按时间先后排序（"2025-5-8 16:55:00" 也能正确排序）
+def date_key(d):
+    head = d.split(" ")[0].split("T")[0]
+    ymd = "-".join(p.zfill(2) for p in head.split("-"))
+    t = ""
+    for tok in d[len(head):].split():
+        if re.fullmatch(r"\d{1,2}:\d{2}(:\d{2})?", tok):
+            t = tok
+            break
+    return (ymd, t)
 
 for f in sorted(posts_dir.glob("*.md")):
     text = f.read_text(encoding="utf-8")
@@ -81,11 +103,11 @@ for f in sorted(posts_dir.glob("*.md")):
     if not date and (fm := re.match(r"(\d{4}-\d{2}-\d{2})", f.stem)):
         date = fm.group(1)
     if not title:
-        title = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", f.stem)
+        title = re.sub(r"^\d{4}-\d{2}-\d{2}[- ]", "", f.stem)
 
     if published == "true":
         results.append((date, title))
 
-for date, title in sorted(results, key=lambda x: x[0], reverse=True):
-    print(f"- {date} {title}")
+for date, title in sorted(results, key=lambda x: date_key(x[0]), reverse=True):
+    print(f"- {norm_date(date)} {title}")
 ```
